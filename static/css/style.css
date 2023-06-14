@@ -163,15 +163,6 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
-.box .magnify {
-  padding: 1.2em 1.5em;
-  width: 250px;
-  font-size: large;
-  font-weight: bold;
-}
-.box .magnify1 {
-  padding: 0.8em 1.1em;
-}
 .box .interConverter {
   color: #fff;
 }
@@ -227,7 +218,24 @@ body {
   align-items: center;
 }
 
+.magnify {
+  padding: 1.2em 1.5em;
+  width: 250px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.interConverter2 {
+  display: none;
+}
+
 @media only screen and (max-width: 710px) {
+  .interConverter1 {
+    display: none;
+  }
+  .interConverter2 {
+    display: block;
+  }
   .box {
     flex-direction: column;
   }
@@ -241,7 +249,7 @@ body {
     margin: 0px;
   }
   .magnify {
-    padding: 0.8em 0.15em;
-    width: auto;
+    padding: 0.8em 1.5em;
+    width: 200px;
   }
 }/*# sourceMappingURL=style.css.map */
