@@ -1,6 +1,6 @@
 # Thermoverse
-- <img src="public/logo.png" alt="Logo" width="300"/>
 - Thermoverse is a Temperature Dashboard application designed to provide tools to do almost all kind of temperature related tasks. It offers a user-friendly interface to visualize temperature data and supports integration with various data sources.
+- <img src="public/logo.png" alt="Logo" width="300"/>
 
 ## Features
 
